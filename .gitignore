@@ -1,3 +1,5 @@
 *.iml
 *.xml
 test.txt
+.idea
+out
