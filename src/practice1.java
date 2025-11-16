@@ -3,6 +3,10 @@ public class practice1 {
         System.out.println("Hello");
         System.out.println("Welcome to Java club");
         System.out.println("Have fun with it");
+
+        int  x=5;
+        int y=x*5;
+        System.out.println(y);
     }
 
 }
