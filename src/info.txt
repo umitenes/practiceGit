@@ -1,1 +1,50 @@
-this in fo file
+FAQ Git Day 1
+
+Some of the most common questions from day 1:
+
+1) I don't see .idea, out, or iml file
+    it's fine, everything is still going to work the same.
+    Most likely the settings for your project are not showing those files.
+    You can still add them as files to ignore in the gitignore file
+    (just because you don't see them doesn't mean you can't ignore them from being tracked)
+
+    If you wanted to change the view settings in intelliJ
+    Click the gear next to the project name
+    Select Tree Appearance
+    Select Show Excluded file
+
+2) You enabled git in your java project
+    In intellij open the settings
+    Click version control menu
+    Click Directory mappings
+    Click the defined project
+    Click the minus sign to remove
+    -> Also you can go into the folder structure and delete the .git folder
+
+3) The files have different colors after enabling git
+    colors are all normal
+    red: files are untracked
+    green: files are tracked
+    blue: files are commit
+    yellow: files are ignored from tracking
+
+4) I have .idea or others in gitignore but they are still on github
+    This means the files were being tracked already, before they were
+    added to the gitignore. Its not a big deal at the moment, we are just
+    getting started with git. When we learn commands we can also learn how to untrack files
+
+5) How to get project from intelliJ to your computer
+    cloning. It will be in next class
+
+6) Unsupported git version
+    Most git versions will work, but it cannot be lower than 2.17 version.
+    If you are getting this issue you will need to install a newer version of git as demonstrated in short videos
+
+7) Enable to push to github
+    double check your account settings. The account you set up in intelliJ
+    should match the github account you are pushing to
+
+8) It shows me error when committing and has option to commit anyway
+    IntelliJ is being smart, it is detecting some possible issues in the
+    code and giving a warning, so before tracking those files it is verifying
+    if a file with possible problems should really be commit
