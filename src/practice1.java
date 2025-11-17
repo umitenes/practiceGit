@@ -7,6 +7,8 @@ public class practice1 {
         int  x=5;
         int y=x*5;
         System.out.println(y);
+
+        System.out.println("Added from the school");
     }
 
 }
